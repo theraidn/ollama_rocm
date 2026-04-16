@@ -7,16 +7,14 @@ set -e
 # Define models to pull
 MODELS=(
     "qwen2.5-coder:14b-instruct"
-    "qwen2.5-coder:32b"
     "qwen2.5-coder:0.5b"
     "qwen2.5-coder:1.5b"
     "qwen2.5-coder:7b"
-    "devstral-small-2:latest"
-    "codellama:34b"
-    "deepseek-r1:70b"
+    "qwen3-coder-next:q4_K_M"
+    "qwen3.6"
     "codegemma:2b"
-    "gpt-oss:20b"
-    "gemma3n:e4b"
+    "gpt-oss:120b"
+    "gemma4:31b"
 )
 
 # Container name

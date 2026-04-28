@@ -6,15 +6,19 @@ set -e
 
 # Define models to pull
 MODELS=(
-    "qwen2.5-coder:14b-instruct"
-    "qwen2.5-coder:0.5b"
-    "qwen2.5-coder:1.5b"
-    "qwen2.5-coder:7b"
-    "qwen3-coder-next:q4_K_M"
-    "qwen3.6"
-    "codegemma:2b"
-    "gpt-oss:120b"
-    "gemma4:31b"
+    "qwen2.5-coder:14b-instruct" # agentic coding
+    "qwen2.5-coder:0.5b" # coding auto-correction
+    "qwen2.5-coder:1.5b" # coding auto-correction
+    "qwen2.5-coder:7b" # coding auto-correction
+    "qwen3-coder-next:q4_K_M" # agentic coding
+    "qwen3.6"      # generic
+    "codegemma:2b" # coding auto-correction
+    "gpt-oss:120b" # generic
+    # Test
+    "gemma4:31b"   # generic
+    "gemma4:e4b"   # generic
+    "gemma4:26b"   # generic
+    "jobautomation/OpenEuroLLM-German:latest" # optimized for german conversational interaction
 )
 
 # Container name

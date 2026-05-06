@@ -17,7 +17,7 @@ MODELS=(
     # Test
     "gemma4:31b"   # generic
     "gemma4:e4b"   # generic
-    "gemma4:26b"   # generic
+    "nemotron3:33b-q4_K_M"   # multimodal LLM
     "jobautomation/OpenEuroLLM-German:latest" # optimized for german conversational interaction
 )
 
